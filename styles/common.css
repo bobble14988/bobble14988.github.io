@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #30323D;
+}
+
+div#wrapper {
+    min-height: calc(100vh - 50px); /* make footer stick */
+}
+
+/*****************************/
+/* Header section            */
+/*****************************/
+
+header {
+    background-image: linear-gradient(#1c6d91, #5A85C9);
+    font-family: "Roboto", sans-serif;
+    color: #30323D;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.7);
+    text-align: center;
+    height: 100vh;
+    position: relative;
+}
+
+header div#title-wrapper {
+    background-color: #F1F7ED;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header div#title-wrapper-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header div#title-wrapper h1 {
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+/*****************************/
+/* Projects section          */
+/*****************************/
+
+section#projects {
+    background-color: #F1F7ED;
+}
+
+section#projects > h3 {
+    margin-bottom: 20px;
+}
+
+section#projects > div.project:first-of-type {
+    width: 80%;
+    background-color: #30323D;
+    margin: 0 auto;
+    height: 150px;
+}
+
+section#projects div.project {
+    height: 150px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+section#projects div.project > a {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: #F1F7ED;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+section#projects div.project > p {
+    color: #F1F7ED;
+    margin: 15px 10px 0 10px;
+    font-size: 0.9em;
+}
+
+section#projects div.project > img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 140px;
+    min-height: 100%;
+    transition: top 0.2s;
+}
+
+section#projects div.project:hover > img {
+    top: 0;
+}
+
+section#projects div.two-column-project-wrapper {
+    margin: 10px auto 0 auto;
+    width: 80%;
+}
+
+section#projects div.two-column-project-wrapper div.project {
+    width: calc(50% - 5px);
+    background-color: #30323D;
+    position: relative;
+    float: left;
+}
+
+section#projects div.two-column-project-wrapper div.project:nth-of-type(1) {
+    margin-right: 5px;
+}
+
+section#projects div.two-column-project-wrapper div.project:nth-of-type(2) {
+    margin-left: 5px;
+}
+
+/*****************************/
+/* Contact section           */
+/*****************************/
+
+section#contact {
+    background-image: linear-gradient(#5A85C9, #1c6d91);
+    color: #F1F7ED;
+}
+
+section#contact > p {
+    text-align: center;
+}
+
+section#contact > div#social-logos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section#contact > div#social-logos img {
+    max-height: 80px;
+    max-width: 80px;
+    padding: 0 20px;
+}
+
+section#contact form {
+    margin: 20px auto 0 auto;
+    width: 300px;
+}
+
+section#contact form label {
+    display: block;
+}
+
+section#contact form input.detail-input {
+    margin: 0 auto 10px auto;
+    width: 100%;
+    height: 20px;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    padding: 2px;
+    background-color: #F1F7ED;
+}
+
+section#contact form textarea {
+    min-height: 60px;
+    min-width: 100%;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    padding: 2px;
+    resize: none;
+    background-color: #F1F7ED;
+}
+
+section#contact form button#send {
+    display: block;
+    background: #F1F7ED;
+    border-radius: 5px;
+    margin: 10px auto 0 auto;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    border: 0;
+    padding: 5px 15px;
+}
+
+section#contact form button#send:hover {
+    background: #d4dad0;
+    cursor: pointer;
+}
+
+section#contact form button#send img{
+    height: 15px;
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+
+footer {
+    background-color: #30323D;
+    color: #F1F7ED;
+    height: 30px;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+a:link, a:visited {
+    color: #779FA1;
+    text-decoration:none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.emphasis {
+    font-style: italic;
+}
