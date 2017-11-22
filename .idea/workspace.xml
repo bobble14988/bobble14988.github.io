@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/styles/common.css" line="212" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd9a5273-30e1-4066-9fd1-1e608b18e895" name="Default" comment="" />
+    <list default="true" id="fd9a5273-30e1-4066-9fd1-1e608b18e895" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/common.css" afterPath="$PROJECT_DIR$/styles/common.css" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -36,8 +38,8 @@
           <file leaf-file-name="common.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/common.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="467">
-                  <caret line="226" column="1" lean-forward="true" selection-start-line="226" selection-start-column="1" selection-end-line="226" selection-end-column="1" />
+                <state relative-caret-position="399">
+                  <caret line="222" column="2" lean-forward="false" selection-start-line="222" selection-start-column="2" selection-end-line="222" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
@@ -73,8 +75,8 @@
       <list>
         <option value="$PROJECT_DIR$/styles/main.css" />
         <option value="$PROJECT_DIR$/scripts/common.js" />
-        <option value="$PROJECT_DIR$/styles/common.css" />
         <option value="$PROJECT_DIR$/pages/index.html" />
+        <option value="$PROJECT_DIR$/styles/common.css" />
       </list>
     </option>
   </component>
@@ -181,12 +183,12 @@
       <workItem from="1509031308433" duration="599000" />
       <workItem from="1511263833547" duration="9472000" />
       <workItem from="1511277781108" duration="16470000" />
-      <workItem from="1511358212278" duration="2514000" />
+      <workItem from="1511358212278" duration="3113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37389000" />
+    <option name="totallyTimeSpent" value="37988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -299,8 +301,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="226" column="1" lean-forward="true" selection-start-line="226" selection-start-column="1" selection-end-line="226" selection-end-column="1" />
+        <state relative-caret-position="399">
+          <caret line="222" column="2" lean-forward="false" selection-start-line="222" selection-start-column="2" selection-end-line="222" selection-end-column="2" />
           <folding />
         </state>
       </provider>
